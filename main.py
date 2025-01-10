@@ -14,7 +14,6 @@ def main():
                     case_dictonary[j] = 1
         print(f"Number of words: {num_words}")
         for k in case_dictonary:
-            letter = case_dictonary[k]
             print(f"{k} was found {case_dictonary[k]} times!")
 
 main()
